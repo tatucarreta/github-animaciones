@@ -3,3 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #861657;
+    background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+
+}
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+.trans1{
+    background-color: red;
+    transition: all 2s ease;
+}
+.trans1:hover{
+    width: 250px;
+    background-color: blue;
+    
+}
